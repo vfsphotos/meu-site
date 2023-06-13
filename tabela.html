@@ -7,34 +7,41 @@
     <title>Trabalhando com tabelas</title>
 </head>
 <body>
-    <h2>Tabelas com html</h2>
-    <table>
+    <h3>Atividade da Agenda Telefônica com Tabela</h3>
+    <table border="1">
         <thead>
             <tr>
-                <th>Matrícula</th>
-                <th>Nome</th>
-                <th>Sobrenome</th>
+                <th colspan="3">Agenda telefônica</th>
+            </tr>
+            <tr>
+                <th>Aluno</th>
+                <th>Pais</th>
+                <th>Telefone</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>2023.09.000</td>
-                <td>Caio</td>
-                <td>Lima</td>
+                <td rowspan="2">Joaquim</td>
+                <td>Erico</td>
+                <td>(86)9999-3699</td>
             </tr>
             <tr>
-                <td>2023.09.002</td>
-                <td>Danilo</td>
-                <td>Carvalho</td>
+                <td>Luciana</td>
+                <td>(86)9499-9009</td>
             </tr>
             <tr>
-                <td>2023.09.003</td>
-                <td>Érico</td>
-                <td>Costa</td>
+                <td rowspan="2">Castiel</td>
+                <td>Emanuel</td>
+                <td>(86)9880-8515</td>
+            </tr>
+            <tr>
+                <td>Anny</td>
+                <td>(89)9880-7780</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <td>Fonte: Eu</td>
+                <td colspan="3">Fonte: Cadastro</td>
             </tr>
         </tfoot>
         </tr>
