@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(238, 238, 238);
+    margin: 0%;
+}
+table, th, td{
+    color: rgb(4, 226, 115);
+    font-family:Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: rgb(119, 188, 206);
+}
+h3 {
+    color: rgb(75, 110, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+div.Título {
+    background-color: rgb(119, 188, 206);
+    padding: 1px;
+    height: auto;
+}
+div.Tabela {
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(75, 110, 224);
+}
+table {
+    margin: auto;
+}
